@@ -24,9 +24,7 @@ Chemical fragments and substructures
 
 Daily dose information
 
-Binary label →
-
-1 = drug associated with autoimmune disease
+Binary label → 1 = drug associated with autoimmune disease
 
 0 = drug not associated
 
@@ -34,33 +32,6 @@ Binary label →
 
 Drug-induced autoimmune responses can occur due to reactive metabolites (RMs) generated during metabolism.
 Certain structural alerts—especially nitrogen-containing aromatic substituents—are known to correlate with autoimmunity risk.
-
-Prior research achieved:
-
-AUC ~ 70%
-
-Identified specific RM-related alerts significantly associated with ADs
-
-This project aims to improve this prediction accuracy using advanced ML techniques such as:
-
-LightGBM
-
-XGBoost
-
-Random Forest
-
-Feature selection
-
-
-🧬 **Key Findings**
-
-Nitrogen-containing benzene substituent alerts show strong association with autoimmune risks.
-
-Structural alerts related to reactive metabolites rank highly.
-
-Feature-selected LightGBM/XGBoost provides the best performance.
-
-Model interpretation using SHAP reveals mechanistic relationships between structure and AD risk.
 
 🛠️ **Technologies Used**
 
@@ -72,7 +43,7 @@ Pandas, NumPy
 
 Scikit-learn
 
-LightGBM / XGBoost / CatBoost
+ XGBoost 
 
 RDKit (optional for SMILES encoding)
 
