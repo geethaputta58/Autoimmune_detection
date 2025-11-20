@@ -1,9 +1,9 @@
-Drug-Induced Autoimmune Disease (AD) Prediction Using Machine Learning
+**Drug-Induced Autoimmune Disease (AD) Prediction Using Machine Learning**
 
 This project presents a machine-learning–based workflow to predict whether a drug compound has the potential to induce autoimmune diseases (ADs) based on structural alerts, molecular descriptors, and chemical features.
 The goal is to support toxicological prescreening during early drug development.
 
-🚀 Project Overview
+🚀**Project Overview**
 
 Autoimmune toxicity is an important safety concern in drug discovery. This project aims to:
 
@@ -30,7 +30,7 @@ Binary label →
 
 0 = drug not associated
 
-🧠 Background
+🧠**Background**
 
 Drug-induced autoimmune responses can occur due to reactive metabolites (RMs) generated during metabolism.
 Certain structural alerts—especially nitrogen-containing aromatic substituents—are known to correlate with autoimmunity risk.
@@ -52,7 +52,7 @@ Random Forest
 Feature selection
 
 
-🧬 Key Findings (Expected)
+🧬 **Key Findings**
 
 Nitrogen-containing benzene substituent alerts show strong association with autoimmune risks.
 
@@ -62,7 +62,7 @@ Feature-selected LightGBM/XGBoost provides the best performance.
 
 Model interpretation using SHAP reveals mechanistic relationships between structure and AD risk.
 
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 
 Python
 
